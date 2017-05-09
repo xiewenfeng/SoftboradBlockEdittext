@@ -1,0 +1,71 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPageBg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                style="@style/editext_input_style"
+                android:hint="输入框1" />
+
+            <EditText
+                style="@style/editext_input_style"
+                android:hint="输入框2" />
+
+            <EditText
+                style="@style/editext_input_style"
+                android:hint="输入框3" />
+
+            <EditText
+                style="@style/editext_input_style"
+                android:hint="输入框4" />
+
+            <EditText
+                style="@style/editext_input_style"
+                android:hint="输入框5" />
+
+            <EditText
+                style="@style/editext_input_style"
+                android:hint="输入框6" />
+
+            <EditText
+                style="@style/editext_input_style"
+                android:hint="输入框7" />
+
+            <EditText
+                style="@style/editext_input_style"
+                android:hint="输入框8" />
+
+            <EditText
+                style="@style/editext_input_style"
+                android:hint="输入框9" />
+
+            <EditText
+                style="@style/editext_input_style"
+                android:hint="输入框10" />
+
+            <EditText
+                style="@style/editext_input_style"
+                android:hint="输入框11" />
+
+            <EditText
+                style="@style/editext_input_style"
+                android:hint="输入框12" />
+
+            <EditText
+                style="@style/editext_input_style"
+                android:hint="输入框13" />
+
+            <EditText
+                style="@style/editext_input_style"
+                android:hint="输入框14" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">键盘挡住输入框</string>
+    <string name="login_hint_username">请输入用户名</string>
+    <string name="login_hint_pwd">请输入登录密码</string>
+    <string name="login">登录</string>
+</resources>

@@ -1,0 +1,80 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPageBg"
+        android:orientation="vertical">
+
+        <!--这个是隐藏的布局，然后通过动态的设置高度达到效果-->
+        <View
+            android:id="@+id/status_bar_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/titlebar_main_color"/>
+
+        <include layout="@layout/layout_toolbar"
+            android:id="@+id/tool_bar"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    style="@style/editext_input_style"
+                    android:hint="输入框1" />
+
+                <EditText
+                    style="@style/editext_input_style"
+                    android:hint="输入框2" />
+
+                <EditText
+                    style="@style/editext_input_style"
+                    android:hint="输入框3" />
+
+                <EditText
+                    style="@style/editext_input_style"
+                    android:hint="输入框4" />
+
+                <EditText
+                    style="@style/editext_input_style"
+                    android:hint="输入框5" />
+
+                <EditText
+                    style="@style/editext_input_style"
+                    android:hint="输入框6" />
+
+                <EditText
+                    style="@style/editext_input_style"
+                    android:hint="输入框7" />
+
+                <EditText
+                    style="@style/editext_input_style"
+                    android:hint="输入框8" />
+
+                <EditText
+                    style="@style/editext_input_style"
+                    android:hint="输入框9" />
+
+                <EditText
+                    style="@style/editext_input_style"
+                    android:hint="输入框10" />
+
+                <EditText
+                    style="@style/editext_input_style"
+                    android:hint="输入框11" />
+
+                <EditText
+                    style="@style/editext_input_style"
+                    android:hint="输入框12" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</layout>

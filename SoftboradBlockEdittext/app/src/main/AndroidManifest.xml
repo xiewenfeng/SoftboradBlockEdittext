@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smilexie.softboradblockedittext">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginActivity"/>   <!--透明状态栏，根据键盘状态 + 滚动界面-->
+        <activity android:name="LoginActivityForDiffkeyboardHeight"/>
+
+        <activity android:name=".AdjustPanInputActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"/><!--adjustPan属性使用-->
+
+
+
+        <activity android:name=".FullScreenFitSystemActivity"
+            android:windowSoftInputMode="stateHidden"/>   <!--透明状态栏+fitSystemWindow-->
+
+        <activity android:name="AdjustResizeNFullScreenScrollActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden"/><!--非全屏+ScrollView+adjustResize-->
+
+        <activity android:name=".fullscreenWithoutFitSystem.AdjustResizeFullScreenFailActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>  <!--透明状态栏 + 使用adjustResize失效-->
+
+        <activity android:name=".fullscreenWithoutFitSystem.TransStatusbarWisthAssistActivity"
+            android:windowSoftInputMode="stateHidden"/>   <!--透明状态栏 + assistActivity 重绘界面-->
+
+    </application>
+
+</manifest>

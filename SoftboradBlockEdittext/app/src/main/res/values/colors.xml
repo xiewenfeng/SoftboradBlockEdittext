@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffce3d3a</color>
+    <color name="colorPrimaryDark">#ffce3d3a</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--正文字段色值-->
+    <color name="text_main_color">#333333</color>
+    <!--灰色字体色值-->
+    <color name="text_gray_color">#656565</color>
+    <!--页面标题栏主色调-->
+    <color name="titlebar_main_color">#ffce3d3a</color>
+    <!--页面背景的颜色-->
+    <color name="colorPageBg">#f2f4f5</color>
+</resources>

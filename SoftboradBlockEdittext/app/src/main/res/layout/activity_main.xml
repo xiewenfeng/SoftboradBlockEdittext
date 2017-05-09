@@ -1,0 +1,68 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.smilexie.softboradblockedittext.MainActivity">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_10dp"
+            android:onClick="adjustPan"
+            android:text="方法一：adjustPan属性使用" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_10dp"
+            android:onClick="scrollViewAdjustResizeBtn"
+            android:text="方法一：非全屏+ScrollView+adjustResize" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_10dp"
+            android:onClick="adjustResizeBtn"
+            android:text="方法二：透明状态栏+fitSystemWindow" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_10dp"
+            android:onClick="adjustResizeFail"
+            android:text="adjustResize全屏失效" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_10dp"
+            android:text="方法三：透明状态栏+键盘状态+滚动界面"
+            android:onClick="loginStep"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_10dp"
+            android:text="方法三：透明状态栏+键盘状态+滚动界面(适应键盘高度改变)"
+            android:onClick="loginForDiffKeyboardHeightStep"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_10dp"
+            android:text="方法四：透明状态栏+assistActivity重绘界面"
+            android:onClick="assistStep"/>
+
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,99 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.example.smilexie.softboradblockedittext.util.KeyboardLayout
+        android:id="@+id/main_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/login_bg"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/login_ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="200dp"
+                    android:background="@mipmap/login_input_field_icon"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:background="@mipmap/login_yonghuming_icon" />
+
+                    <EditText
+                        android:id="@+id/ui_username_input"
+                        style="@style/editext_input_style"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@null"
+                        android:hint="@string/login_hint_username"
+                        android:imeOptions="actionNext"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white">
+
+                        <requestFocus />
+                    </EditText>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@mipmap/login_input_field_icon"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:background="@mipmap/login_mima_icon" />
+
+
+                    <EditText
+                        android:id="@+id/ui_password_input"
+                        style="@style/editext_input_style"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@null"
+                        android:hint="@string/login_hint_pwd"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPassword"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white"></EditText>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/login_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@mipmap/login_button_bg_icon"
+                    android:text="@string/login"
+                    android:textColor="@color/titlebar_main_color"
+                    android:textSize="@dimen/font_normal" />
+            </LinearLayout>
+        </ScrollView>
+
+    </com.example.smilexie.softboradblockedittext.util.KeyboardLayout>
+
+
+</layout>

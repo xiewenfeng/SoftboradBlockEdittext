@@ -1,0 +1,40 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/titlebar_main_color</item>
+        <item name="colorPrimaryDark">@color/titlebar_main_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="layout_mw">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="layout_ww">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <!--输入框样式-->
+    <style name="editext_input_style" parent="layout_mw">
+        <item name="android:padding">@dimen/margin_8dp</item>
+        <item name="android:layout_marginTop">@dimen/margin_10dp</item>
+    </style>
+
+    <!--正常灰色字体-->
+    <style name="main_gray_text_style" parent="layout_ww">
+        <item name="android:textColor">@color/text_gray_color</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="actionBarItemBackground">@drawable/abc_item_background_holo_light</item>
+        <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

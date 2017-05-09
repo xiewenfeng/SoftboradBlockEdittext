@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="font_normal">16sp</dimen>
+    <dimen name="toollbar_height">48dp</dimen>
+</resources>
